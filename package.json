@@ -1,0 +1,30 @@
+{
+  "name": "autojira",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js",
+    "setup": "node setup.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/local-auth": "^3.0.1",
+    "@google-cloud/speech": "^6.3.0",
+    "@google/genai": "^1.5.1",
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.10.0",
+    "dotenv": "^16.5.0",
+    "fs": "^0.0.1-security",
+    "googleapis": "^150.0.1",
+    "jira-client": "^8.2.2",
+    "jira.js": "^5.2.1",
+    "mime": "^4.0.7",
+    "node-telegram-bot-api": "^0.61.0",
+    "path": "^0.12.7",
+    "process": "^0.11.10"
+  }
+}
